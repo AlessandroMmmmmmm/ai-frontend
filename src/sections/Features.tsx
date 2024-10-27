@@ -45,7 +45,7 @@ export const Features = () => {
             <DotLottiePlayer src={tab.icon} className="h-5 w-5" autoplay/>
           </div>
           <div className="font-medium">{tab.title}</div>
-          {tab.isNew && <div className="text-xs rounded-full px-2 py-0.5 bg-[#8c44ff] text-black font-semibold">new</div>}
+          {tab.isNew && <div className="text-xs rounded-full px-2 py-0.5 bg-[#8c44ff] text-black font-semibold">New</div>}
         </div>
       ))}
       </div>
