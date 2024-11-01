@@ -10,7 +10,7 @@ export default function Pricing() {
 				<Header />
 					<div className="container mx-auto py-16">
 						<h1 className="mx-auto mb-6 mt-0 text-5xl flex justify-center">Pricing</h1>
-						<p className="mx-auto mb-24 mt-0 text-xl text-gray-400 text-wrap w-[400px] text-center flex justify-center tracking-wider">Unlock your website's full SEO potential with the plan that's right for you.</p>
+						<p className="mx-auto mb-24 mt-0 text-xl text-gray-400 text-wrap w-[400px] text-center flex justify-center tracking-wider">Unlock your website&apos;s full SEO potential with the plan that&apos;s right for you.</p>
 							<div className="flex flex-row justify-center gap-12">
 									{/* Prototype Card */}
 									<div className="flex flex-col transition-transform duration-300 transform hover:scale-105 items-start h-[425px] w-80 rounded-[35px] p-8 pt-6 bg-white/5 shadow-lg blackdrop-blur-xl border-[1px] border-r-0 border-l-0 border-white/15">
