@@ -10,7 +10,7 @@ export default function Waitlist() {
           Made to maximize your website&apos;s potential
         </h1>
         <p className="text-2xl text-gray-300 w-4/12">
-					Be among the first to elevate your site's visibility with AI-driven SEO tools. Join our waitlist for early access and exclusive insights.
+					Be among the first to elevate your site&apos;s visibility with AI-driven SEO tools. Join our waitlist for early access and exclusive insights.
         </p>
         <div className="mt-12 mb-36">
           <form className="flex flex-row gap-4 w-4/12">
