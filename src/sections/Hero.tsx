@@ -3,7 +3,13 @@ import {Button} from "@/components/button";
 import starsBg from "@/assets/stars.png";
 import {motion, useMotionValueEvent, useScroll, useTransform} from "framer-motion";
 import { useRef } from "react";
+import { Varela_Round } from "next/font/google";
 
+
+const varela = Varela_Round({
+  subsets:["latin"],
+  weight: ['400']
+})
 export const Hero = () => {
 
   const sectionRef = useRef(null);
@@ -96,7 +102,9 @@ export const Hero = () => {
     
     
     <div className="container relative mt-16">
-      <h1 className="text-8xl md:text-[168px] md:leading-nonefont-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">AI SEO</h1>
+      <div className={varela.className}>
+        <h1 className=" text-8xl md:text-[168px] md:leading-nonefont-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">AI SEO</h1>
+        </div>
       <p className="text-lg text-white/70 mt-5 text-center max-w-xl mx-auto">
         Elevate your site&apos;s visibility tools with AI, where smart 
         technology meets user-friendly SEO
@@ -104,6 +112,7 @@ export const Hero = () => {
       <div className="flex justify-center mt-5">
         <Button>Join Waitlist</Button>
       </div>
+
     </div>
   </motion.section>
 
