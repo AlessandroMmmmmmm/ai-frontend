@@ -10,6 +10,7 @@ const varela = Varela_Round({
   subsets:["latin"],
   weight: ['400']
 })
+
 export const Hero = () => {
 
   const sectionRef = useRef(null);

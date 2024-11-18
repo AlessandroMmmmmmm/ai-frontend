@@ -18,10 +18,10 @@ export default function Pricing() {
 	let checkIcon = <svg fill="#ffffff" className="mb-0 mt-[5px]" height="15px" width="15px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490.05 490.05" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M418.275,418.275c95.7-95.7,95.7-250.8,0-346.5s-250.8-95.7-346.5,0s-95.7,250.8,0,346.5S322.675,513.975,418.275,418.275 z M157.175,207.575l55.1,55.1l120.7-120.6l42.7,42.7l-120.6,120.6l-42.8,42.7l-42.7-42.7l-55.1-55.1L157.175,207.575z"></path> </g> </g> </g></svg>
 	
 	return(
-      <>
-			<Header />
-			<motion.section className="w-full -mb-14 min-h-screen [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
-			style={{
+    <>
+		<Header />
+		<motion.section className="w-full -mb-16 min-h-screen [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
+		style={{
       backgroundImage: `url(${starsBg.src})`,
       backgroundPositionY,
     }}
@@ -166,7 +166,10 @@ export default function Pricing() {
 					</div>
 					</div>
 				</motion.section>
+        <div className="">
 				<Footer />
-      </>
-  	);
+        </div>
+
+    </>
+  );
 }
